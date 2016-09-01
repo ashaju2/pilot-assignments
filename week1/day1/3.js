@@ -5,13 +5,13 @@ module.exports = function chessboard() {
 for (var i = 1; i <=size; i++){
   var n = '';
   for (var j = 1; j <= size; j++) {
-    if (i%2 !== j%2){
+    if (i % 2 !== j % 2){
         n = n + ' ';
       }
-    else if (i%2 === j%2){
+    else if (i % 2 === j % 2){
         n = n + '#';
       }
-    else if (j%2) {
+    else if (j % 2) {
         n = n + '#';
       }
     else {
